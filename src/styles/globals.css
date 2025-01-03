@@ -4,69 +4,53 @@
 
 :root {
   --foreground: 222.2 84% 4.9%;
-
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
-
   --primary: 222.2 47.4% 11.2%;
   --primary-foreground: 210 40% 98%;
-
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
-
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
   --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-
+  --muted-foreground: 224.4 16.3% 22%;
   --accent: 210 40% 96.1%;
   --accent-foreground: 222.2 47.4% 11.2%;
-
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
-
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
   --ring: 222.2 84% 4.9%;
-
   --radius: 0.5rem;
-
   --sidebar-background: 0 0% 98%;
-
   --sidebar-foreground: 240 5.3% 26.1%;
-
   --sidebar-primary: 240 5.9% 10%;
-
   --sidebar-primary-foreground: 0 0% 98%;
-
   --sidebar-accent: 240 4.8% 95.9%;
-
   --sidebar-accent-foreground: 240 5.9% 10%;
-
   --sidebar-border: 220 13% 91%;
-
   --sidebar-ring: 217.2 91.2% 59.8%;
+  --color-body: hsl(235, 8%, 30%);
+  --text-secondary: rgb(164, 172, 195);
+  --color-brand-primary: 224, 68%, 46% ;
 
   --bg-color-line: #cbcbcb;
   --bg-color-page: #19223e;
   --color-black: #555555;
-  --color-brand-primary: 224, 68%, 46%;
+  
   --color-brand-primary-2: #8da6eb;
   --color-brand-secondary: #8576ff;
   --color-brand-black: #0e215d;
   --color-brand-white: #fff;
   --color-bg-1: #f6f8fd;
   --color-bg-2: #e1e5ef;
-  --color-gradient-1: linear-gradient(
-    141.71deg,
-    rgba(80, 71, 153, 0.85) 16.42%,
-    rgba(133, 118, 255, 0.85) 96.48%
-  );
-  --color-body: #474854;
+  --color-gradient-1: linear-gradient(141.71deg,
+      rgba(80, 71, 153, 0.85) 16.42%,
+      rgba(133, 118, 255, 0.85) 96.48%);
+  
   --bg-footer-1: #bbdeea;
   --bg-footer-2: #eafdfc;
-  --text-secondary: rgb(164, 172, 195);
+
   --color-bg-1-dark: darken(#f6f8fd, 10%);
   --color-bg-highlight: var(--color-bg-2);
   --bg-dark-1: hsla(224deg, 68%, 10%, 1);
@@ -95,10 +79,8 @@
   --hero-title-highlight-color: var(--color-brand-primary);
   --hero-desc-color: var(--color-body);
   --hats-intro-color: var(--color-brand-black);
-  --hats-gradient-bg: radial-gradient(
-    rgba(255, 255, 255, 0.7) 45%,
-    transparent
-  );
+  --hats-gradient-bg: radial-gradient(rgba(255, 255, 255, 0.7) 45%,
+      transparent);
   --hats-bottom-border-color: #e5e5e5;
   --hats-select-color: #222;
   --hats-select-bg-color: rgba(0, 0, 0, 0.05);
@@ -135,15 +117,13 @@
 
 .dark {
   --foreground: 210 40% 98%;
+  
 
   --card: 222.2 84% 4.9%;
   --card-foreground: 210 40% 98%;
 
   --popover: 222.2 84% 4.9%;
   --popover-foreground: 210 40% 98%;
-
-  --primary: 210 40% 98%;
-  --primary-foreground: 222.2 47.4% 11.2%;
 
   --secondary: 217.2 32.6% 17.5%;
   --secondary-foreground: 210 40% 98%;
@@ -262,17 +242,8 @@ html {
   font-family: Hanken Grotesk, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-  color: var(--color-black);
-}
-
 h1 {
+  font-weight: 500;
   font-size: 2.25rem;
   line-height: 1.33333;
 }
@@ -306,8 +277,8 @@ a {
   text-decoration: none;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
   margin-bottom: 0;
 }
 
