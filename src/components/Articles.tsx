@@ -23,8 +23,8 @@ const articles = [
 
 export const Articles = () => {
   return (
-    <section id="articles" className="py-4 bg-white">
-      <div className="container mx-auto px-0 md:px-4 md:max-w-4xl">
+    <section id="articles" className="scroll-mt-32 py-4 bg-white">
+      <div className="container mx-auto px-0 md:px-10 md:max-w-5xl">
         <h1 className="text-3xl font-bold px-6">Latest Articles</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map((article, index) => (
