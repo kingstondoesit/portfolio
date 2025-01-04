@@ -1,14 +1,14 @@
 import { ArrowRight } from "lucide-react";
-import '../Custom.css'
+import '../styles/Custom.css'
 import { Avatar, Image } from "@radix-ui/react-avatar";
 
 export const Hero = () => {
   return (
     <section className="pt-32 md:pt-0 pb-10 animate-fade-up">
-      <div className="container mx-auto px-4 md:px-0">
-        <div className="wrapper md:min-h-screen md:justify-center md:flex-row gap-7">
+      <div className="container-2xl mx-auto px-4 md:px-0">
+        <div className="wrapper md:min-h-[75vh] md:justify-center md:flex-row gap-7 md:gap-24">
           <div>
-            <div className="flex flex-col text-4xl md:text-6xl mb-6 leading-tight">
+            <div className="flex flex-col text-4xl md:text-6xl mb-6 leading-tight text-primary">
               <h1>Frontend Developer</h1>
               <h1>Engineer</h1>
               <h1>Writer.</h1>
@@ -26,10 +26,10 @@ export const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="-mt-16 md:mt-3 flex-shrink-0 flex-grow md:flex-grow-0">
+          <div className="-mt-28 md:mt-3 flex-shrink-0 flex-grow md:flex-grow-0">
               <Avatar aria-label="hero-image">
                 <Image
-                  src="../public/hero-placeholder.webp"
+                  src="./hero-placeholder.webp"
                   alt="Portfolio picture"
                   className="rounded-2xl w-full md:w-auto"
                 />
