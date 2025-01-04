@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
+        modetoggle: "hsl(var(--bg-mode-toggle))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         brand: {
