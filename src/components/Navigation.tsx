@@ -8,7 +8,6 @@ export const Navigation = () => {
 
   return (
     <>
-      <div id="banner" className="w-full bg-brand-primary h-16 z-50"></div>
       <nav className="sticky top-0 left-0 right-0 bg-white backdrop-blur-sm z-50 border-b-2 border-gray-200">
         <div className=" px-6 mx-auto py-4">
           <div className="flex justify-between items-center">
