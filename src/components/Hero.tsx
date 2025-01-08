@@ -5,8 +5,8 @@ import { Avatar, Image } from "@radix-ui/react-avatar";
 export const Hero = () => {
   return (
     <section className="pt-32 md:pt-0 pb-10 animate-fade-up">
-      <div className="container-2xl mx-auto px-4 md:px-0">
-        <div className="wrapper md:min-h-[75vh] md:justify-center md:flex-row gap-7 md:gap-24">
+      <div className="container-2xl mx-auto px-6 md:px-6 lg:px-0">
+        <div className="wrapper md:min-h-[75vh] md:justify-center md:flex-row gap-7 md:gap-20">
           <div>
             <div className="flex flex-col text-4xl md:text-6xl mb-6 md:-mt-4 leading-tight text-primary">
               <h1>Frontend Developer</h1>
