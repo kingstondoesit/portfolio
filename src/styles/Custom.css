@@ -5,11 +5,10 @@
   align-content: center;
   margin: auto;
 }
-@media (min-width: 900px) {
+@media (min-width: 770px) {
   .navwrapper {
     display: flex;
     max-width: max-content;
-    background-color: var(--nav-bg-color);
     border: 1px solid var(--nav-border-color);
     box-shadow: var(--nav-shadow);
     border-radius: 50px;

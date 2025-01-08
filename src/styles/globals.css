@@ -24,16 +24,15 @@
   --destructive-foreground: hsl(210, 40%, 98%);
   --border: hsl(214.3, 31.8%, 91.4%);
   --input: hsl(214.3, 31.8%, 91.4%);
-  --ring: hsl(222.2, 84%, 4.9%);
+
+  --nav-border-color: rgba(0, 0, 0, 0.05);
+  --nav-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03),
+    0 4px 15px 0 rgba(0, 0, 0, 0.1);
+  --nav-bg-color: var(--color-brand-white);
+  --nav-item-color: #222;
+  --ring: #020817;
   --radius: 0.5rem;
-  --sidebar-background: hsl(0, 0%, 98%);
-  --sidebar-foreground: hsl(240, 5.3%, 26.1%);
-  --sidebar-primary: hsl(240, 5.9%, 10%);
-  --sidebar-primary-foreground: hsl(0, 0%, 98%);
-  --sidebar-accent: hsl(240, 4.8%, 95.9%);
-  --sidebar-accent-foreground: hsl(240, 5.9%, 10%);
-  --sidebar-border: hsl(220, 13%, 91%);
-  --sidebar-ring: hsl(217.2, 91.2%, 59.8%);
+  
   --color-body: hsl(235, 8%, 30%);
   --text-secondary: rgb(164, 172, 195);
   
@@ -56,24 +55,7 @@
 
   --color-bg-1-dark: darken(#f6f8fd, 10%);
   --color-bg-highlight: var(--color-bg-2);
-  --work-tuhoon: #daedea;
-  --work-accounting: #f5ecaf;
-  --work-news: #e0ecf8;
-  --work-foodie: #ebbbbb;
-  --work-gooddeeds: #e7cad0;
-  --work-afiyah: #f1f7ee;
-  --work-travel: #ddf1f4;
-  --work-mansoub: #eafcff;
-  --work-ink: #fcfaf8;
-  --logo-text-color: var(--color-brand-primary);
-  --logo-text-desc-color: var(--color-body);
-  --logo-border-color: var(--color-brand-white);
-  --logo-shadow-color: rgba(0, 0, 0, 0.1);
-  --nav-border-color: rgba(0, 0, 0, 0.05);
-  --nav-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03),
-    0 4px 15px 0 rgba(0, 0, 0, 0.07);
-  --nav-bg-color: var(--color-brand-white);
-  --nav-item-color: #222;
+  
   --theme-switch-item-color: grey;
   --theme-switch-active-icon-fill: #222;
   --theme-switch-active-item-bg: rgba(0, 0, 0, 0.1);
@@ -84,20 +66,9 @@
   --button-primary-border-color: var(--color-brand-primary);
   --button-primary-bg-color: var(--color-brand-primary);
   --button-primary-text-color: var(--color-brand-white);
-  --article-border-color: rgba(0, 0, 0, 0.1);
-  --article-img-border-color: lightgrey;
-  --article-title-text-color: var(--color-brand-primary);
-  --article-time-text-color: #323d5e;
-  --work-title-title-color: #474854;
-  --work-title-desc-color: #474854;
-  --work-item-border-color: rgba(0, 0, 0, 0.07);
-  --quote-item-title-color: var(--color-brand-black);
-  --tag-color: #222;
-  --tag-bg-color: var(--color-bg-1);
-  --tag-total-bg-color: var(--color-bg-1-dark);
 }
 .dark {
-  --foreground: hsl(210, 40%, 98%);
+  --foreground: hsl(210, 48%, 58%);
   --primary: hsl(0, 0%, 100%);
   --primary-foreground: hsl(0, 0%, 90%);
   --secondary: hsl(217.2, 32.6%, 17.5%);
@@ -119,49 +90,15 @@
 
   --border: hsl(217.2, 32.6%, 17.5%);
   --input: hsl(217.2, 32.6%, 17.5%);
-  --ring: hsl(212.7, 26.8%, 83.9%);
-  --sidebar-background: hsl(240, 5.9%, 10%);
-  --sidebar-foreground: hsl(240, 4.8%, 95.9%);
-  --sidebar-primary: hsl(224.3, 76.3%, 48%);
-  --sidebar-primary-foreground: hsl(0, 0%, 100%);
-  --sidebar-accent: hsl(240, 3.7%, 15.9%);
-  --sidebar-accent-foreground: hsl(240, 4.8%, 95.9%);
-  --sidebar-border: hsl(240, 3.7%, 15.9%);
-  --sidebar-ring: hsl(217.2, 91.2%, 59.8%);
-}
-:root.dark {
-  --color-brand-black: #fff;
-  --color-body: #ccd7fa;
-  --color-bg-highlight: #5c51af8c;
-  --logo-text-color: var(--color-brand-white);
-  --logo-text-desc-color: var(--text-secondary);
-  --logo-border-color: #000;
-  --logo-shadow-color: rgba(255, 255, 255, 0.1);
+  --ring: rgb(203, 213, 225);
   --theme-switch-item-color: #fff;
   --theme-switch-active-icon-fill: #fff;
   --theme-switch-active-item-bg: var(--color-brand-primary);
-  --nav-border-color: hsla(224, 68%, 23%, 1);
+  --nav-border-color: #fff;
   --nav-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.03),
-    0 4px 20px 0 rgba(255, 255, 255, 0.05);
-  --nav-bg-color: var(--bg-dark-2);
+    0 4px 20px 0 rgba(255, 255, 255, 0.09);
+  --nav-bg-color: hsl(223, 66%, 10%);
   --nav-item-color: var(--color-brand-white);
-  --hero-title-highlight-color: var(--color-brand-primary-2);
-  --hero-desc-color: #ccd7fa;
-  --section-title-color: var(--color-brand-primary-2);
-  --button-secondary-border-color: rgba(255, 255, 255, 0.2);
-  --button-secondary-bg-color: var(--bg-dark-1);
-  --button-secondary-text-color: var(--color-brand-white);
-  --article-border-color: rgba(255, 255, 255, 0.1);
-  --article-img-border-color: transparent;
-  --article-title-text-color: var(--color-brand-white);
-  --article-time-text-color: var(--text-secondary);
-  --work-title-title-color: var(--color-brand-white);
-  --work-title-desc-color: var(--text-secondary);
-  --work-item-border-color: transparent;
-  --quote-item-title-color: #ccd7fa;
-  --tag-color: var(--color-brand-white);
-  --tag-bg-color: rgba(255, 255, 255, 0.1);
-  --tag-total-bg-color: rgba(255, 255, 255, 0.3);
 }
 
 html {

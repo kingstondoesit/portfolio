@@ -26,6 +26,7 @@ module.exports = {
           primary: "var(--background-primary)",
           secondary: "var(--background-secondary)",
           banner: "var(--background-banner)",
+          nav: "var(--nav-bg-color)"
         },
         foreground: "var(--foreground)",
         brand: {
